@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre un Mundo de Aventuras: Únete a Nuestra Comunidad de Viajeros</title>
+    <style>
+        /* Estilos CSS aquí */
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/cgtn_2_1.jpg" alt="inicio">
+        <h1>¡Bienvenido a Viajeros! Donde los Viajes se Convierten en Experiencias Inolvidables</h1>
+        <p>Únete a una comunidad global de viajeros apasionados que comparten historias, consejos y recomendaciones sobre destinos de todo el mundo. Desde exploradores novatos hasta trotamundos experimentados, todos son bienvenidos a bordo.</p>
+        <div class="dropdown">
+            <button class="dropbtn">Menú</button>
+            <div class="dropdown-content">
+                <a href="#">Inicio</a>
+                <a href="#">Contáctanos</a>
+                <a href="#">Sobre Nosotros</a>
+    </header>
+    <main>
+       
+        <section>
+            <h2>Conexiones Auténticas</h2>
+            <img src="imagenes/salinas.jpg.jfif" alt="salinas">
+            <p>Conoce a viajeros de ideas afines y crea vínculos duraderos con personas que comparten tu pasión por explorar nuevos horizontes.</p>
+        </section>
+        <section>
+            <h2>Inspiración Infinita</h2>
+            <img src="imagenes/saltando.jpg.jfif" alt="saltando">
+            <p>Descubre destinos emocionantes, actividades únicas y consejos de expertos que te ayudarán a planificar tus próximas aventuras con confianza.</p>
+        </section>
+        <section>
+            <img src="imagenes/tnd.jfif" alt="tnd">
+            <h2>Recursos Útiles</h2>
+            <p>Accede a herramientas y recursos útiles, desde guías de viaje hasta listas de verificación, que facilitarán tus preparativos y te ayudarán a aprovechar al máximo cada viaje.</p>
+        </section>
+        <section>
+            <h2>Únete Ahora</h2>
+            <form action="procesar_registro.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="intereses">Selecciona tus Intereses de Viaje:</label>
+                <select id="intereses" name="intereses">
+                    <option value="aventura">Aventura</option>
+                    <option value="playa">Playa</option>
+                    <option value="ciudad">Ciudad</option>
+                    <option value="naturaleza">Naturaleza</option>
+                </select><br>
+                <input type="submit" value="Únete Ahora">
+            </form>
+        </section>
+        <section>
+            <h2>Testimonios de Usuarios</h2>
+            <blockquote>
+                <p>"Karolina, miembro desde 2021: 'Gracias a Viajeros, he descubierto destinos increíbles y he hecho amigos para toda la vida. ¡No puedo esperar para ver a dónde nos lleva nuestra próxima aventura!'"</p>
+            </blockquote>
+        </section>
+        <section>
+            <h2>Destinos Destacados</h2>
+            <ul>
+                <li>[Destino 1]</li>
+                <li>[Destino 2]</li>
+                <li>[Destino 3]</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>¿Tienes preguntas o comentarios? ¡Nos encantaría escucharte! Contáctanos en <a href="mailto:info@ejemplo.com">info@ejemplo.com</a> o síguenos en nuestras redes sociales: <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a>.</p>
+        <p>[Nombre de la Comunidad] - © 2024 Todos los Derechos Reservados | <a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a></p>
+    </footer>
+</body>
+</html>
